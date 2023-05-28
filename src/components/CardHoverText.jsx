@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export const CardHoverText = ({src, name, discount, to}) => {
   return (
-    <div className='mt-10 w-[400px] max-w-full  relative text-white' >
+    <div className='mt-10 w-[420px] max-w-full relative snap-center inline-block text-white' >
         
         <img
             className='w-full h-full' 

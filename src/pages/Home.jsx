@@ -15,10 +15,12 @@ export const Home = () => {
             </div>
 
 
-            <div className='flex gap-5 justify-center flex-wrap'>
+            <div className='overflow-x-scroll snap-x snap-proximity text-center whitespace-nowrap space-x-7 md:overflow-hidden md:flex md:justify-center md:gap-5'>
+
                 <CardHoverText  src="https://www.cancunbay.com/up/media/cb-web-listadochichen.jpg" to="/" discount="40" name="Quintana Roo" />
                 <CardHoverText src="https://www.cancunbay.com/up/media/cb-web-listadochichen.jpg" to="/" discount="40" name="Quintana Roo" />
                 <CardHoverText src="https://www.cancunbay.com/up/media/cb-web-listadochichen.jpg" to="/" discount="40" name="Quintana Roo" />
+
             </div>
             
 
